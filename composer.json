@@ -1,6 +1,6 @@
 {
     "name": "gioco-plus/bolecard-contract",
-    "description": "博樂棋牌 Interface",
+    "description": "bolecard Interface",
     "type": "library",
     "license": "MIT",
     "authors": [
