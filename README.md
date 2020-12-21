@@ -1,1 +1,1 @@
-# 博樂棋牌
+# bole-card interface
