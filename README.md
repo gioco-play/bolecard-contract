@@ -1,1 +1,1 @@
-# bole-card card
+# bole-card interface
