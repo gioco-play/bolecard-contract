@@ -8,21 +8,21 @@ interface BoleCardServiceInterface {
 
     /**
      * 遊戲啟動
-     * @param string $account_with_op
-     * @param string $delimiter
+     * @param string $op_code
+     * @param string $account
      * @param string $game_code
      * @return mixed
      */
-    function gameLaunch(string $account_with_op, string $delimiter, string $game_code);
+    function gameLaunch(string $op_code, string $account, string $game_code);
 
     /**
      * 遊戲詳情
-     * @param string $account_with_op
-     * @param string $delimiter
-     * @param string $trace_id
+     * @param string $op_code
+     * @param string $account
+     * @param string $bet_id
      * @return mixed
      */
-    function gameDetail(string $account_with_op, string $delimiter, string $bet_id);
+    function gameDetail(string $op_code, string $account, string $bet_id);
 
     /**
      * 遊戲紀錄
