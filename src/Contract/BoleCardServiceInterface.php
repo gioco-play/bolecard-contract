@@ -18,10 +18,11 @@ interface BoleCardServiceInterface {
     /**
      * 遊戲詳情
      * @param string $op_code
+     * @param string $account
      * @param string $bet_id
      * @return mixed
      */
-    function gameDetail(string $op_code, string $bet_id);
+    function gameDetail(string $op_code, string $account, string $bet_id);
 
     /**
      * 遊戲紀錄
