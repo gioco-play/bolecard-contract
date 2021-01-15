@@ -27,7 +27,7 @@ interface BoleCardServiceInterface {
     function gameDetail(string $op_code, string $account, string $bet_id);
 
     /**
-     * 遊戲紀錄
+     * 抓取遊戲紀錄
      * @param string $op_code
      * @param int $start_time
      * @param int $end_time
@@ -35,6 +35,6 @@ interface BoleCardServiceInterface {
      * @param int $page_size
      * @return mixed
      */
-    function gameRecord(string $op_code, int $start_time, int $end_time, int $page, int $page_size);
+    function betLogGrabber(string $op_code, int $start_time, int $end_time, int $page, int $page_size);
 }
 
