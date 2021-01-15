@@ -31,10 +31,8 @@ interface BoleCardServiceInterface {
      * @param string $op_code
      * @param int $start_time
      * @param int $end_time
-     * @param int $page
-     * @param int $page_size
      * @return mixed
      */
-    function betLogGrabber(string $op_code, int $start_time, int $end_time, int $page, int $page_size);
+    function betLogGrabber(string $op_code, int $start_time, int $end_time);
 }
 
