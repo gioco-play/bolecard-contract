@@ -2,7 +2,7 @@
 declare(strict_types=1);
 namespace GiocoPlus\BoleCard\Contract;
 /**
- * 交易
+ * 博樂棋牌
  */
 interface BoleCardServiceInterface {
 
@@ -13,7 +13,7 @@ interface BoleCardServiceInterface {
      * @param string $account
      * @param string $game_code
      * @param string $language
-     * @return void
+     * @return mixed
      */
     function gameLaunch(string $op_code, string $account, string $game_code, string $language);
 
