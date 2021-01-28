@@ -31,9 +31,10 @@ interface BoleCardServiceInterface {
      *
      * @param string $op_code
      * @param integer $past_minutes
+     * @param string $cache_key
      * @return mixed
      */
-    function betLogGrabber(string $op_code, int $past_minutes);
+    function betLogGrabber(string $op_code, int $past_minutes, string $cache_key);
 
     /**
      * 全營商 抓取遊戲紀錄
