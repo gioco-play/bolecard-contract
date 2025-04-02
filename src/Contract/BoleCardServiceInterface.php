@@ -44,5 +44,13 @@ interface BoleCardServiceInterface {
      * @return mixed
      */
     function betLogGrabberAll(int $past_minutes);
+
+    /**
+     * 只用於補分
+     * @param string $opCode
+     * @param string $orderNo
+     * @return mixed
+     */
+    function orderFailCheck(string $opCode, string $orderNo);
 }
 
