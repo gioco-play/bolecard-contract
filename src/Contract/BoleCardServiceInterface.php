@@ -1,6 +1,7 @@
 <?php
 declare(strict_types=1);
 namespace GiocoPlus\BoleCard\Contract;
+
 /**
  * 博樂棋牌
  */
